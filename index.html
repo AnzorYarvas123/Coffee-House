@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-House</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <style>
+            #section-left {
+    overflow:hidden;
+}
+#section-right {
+    width:950px;
+    margin-left:30px;
+    float:right;
+}
+section {
+    height:489px;
+}
+        </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><img src="./Coffee.png"  style="width: 40px; margin: 10px; margin-left: 20px;"></li>
+            
+            <li style="float:right"><a href="#">About Us</a></li>
+            <li style="float:right;"><a href="#">Contact Us</a></li>
+            
+        </ul>
+    </header>
+    
+    <section id="section-right" class="Customer_Order">
+
+      
+    </section>
+    <section id="section-left"> <form id="coffee" style="background-color: #ac7d0666;width: 527px;margin-left: 5%; border-radius: 20px;">
+        <input type="hidden" id="ids" name="ids" value="">
+        <label for="fname" style="margin-bottom: 6px;margin-left: 2%; color: white; font-size: 20px;" class="name">Name:</label>
+        <input type="text" id="fname" name="name" placeholder="Your Name"><br>
+
+        <p style="margin-bottom: -6px;margin-top: 17px;margin-left: 6%;" class="typeofdrinks"><h4 style="margin-left: 2%; color: white; font-size: 20px; font-family: cursive;">Menu:
+        </h4><br>
+        <span style="margin-left: 10%; display: flex;  font-family: cursive;">
+              <input type="checkbox" id="html" name="fav_language" value="Hot" style="width: 20px; margin-right: 5px;" >
+              <label for="html" style="color:white; font-size:20px;">Hot Drinks</label><br>
+              <input type="checkbox" id="css" name="fav_language" value="Cold" style=" margin-left:10%; width: 20px; margin-right: 5px;">
+              <label for="css"  style="color:white; font-size:20px;">Cold Drinks</label><br>
+        </span>
+        <label for="country" style="padding-right: 14px;margin-bottom: 25px;margin-left: 2%;  font-family: cursive; font-size: 17px; color: white;">drinks:</label>
+        <select id="drinks" name="drinks" style="background-color: rgba(143, 98, 14, 0.837); color:aliceblue; border-color:rgba(255, 255, 255, 0.892); width: 160px;"><br>
+            <option value="Tea">Tea</option><br>
+            <option value="Americano">Americano</option><br>
+            <option value="Hot Chocolate">Hot Chocolate</option><br>
+            <option value="Espresso">Espresso</option><br>
+            <option value="Mocha">Mocha</option><br>
+            <option value="Latte">Latte</option><br>
+        </select><br>
+        <label for="country" style=" padding-right: 27px;margin-bottom: 25px;margin-left: 2%;  font-family: cursive; font-size: 17px; color: white;">Size:</label>
+        <select id="sizes" name="sizes" style="background-color: rgba(143, 98, 14, 0.837); color:aliceblue; border-color:rgba(255, 255, 255, 0.892);width: 160px;"><br>
+            <option value="Small">Small </option><br>
+            <option value="Medium">Medium</option><br>
+            <option value="Large">Large</option><br>
+        </select><br>
+        <label for="country" style="padding-right: 26px;margin-bottom: 25px;margin-left: 2%; font-family: cursive; font-size: 17px; color: white;">Milk:</label>
+        <select id="milk" name="milk" style="background-color: rgba(143, 98, 14, 0.837); color:aliceblue; border-color:rgba(255, 255, 255, 0.892) ; width: 160px;"><br>
+            <option value="low fat">Low Fat</option><br>
+            <option value="Full fat">Organic</option><br>
+            <option value="Organic">Full Fat</option><br>
+            <option value="none">None</option><br>
+        </select>
+        <br> <br> <br> <br>
+
+        <input type="submit" value="Submit" class="submit">
+        
+
+    </form>
+</section>
+
+   
+    
+
+
+    <footer style="
+    padding-top: 3px;
+    padding-bottom: 0.5%;
+    background-color:rgba(143, 98, 14, 0.747);
+    color: white;
+    
+    width: 100%;
+    height: 10%;">
+        <p> &copy;Copyright By Anzor Yarvas<br>
+        
+        </p>
+    </footer>
+
+    <script src="./JAVA.js"></script>
+
+</body>
+
+</html>
